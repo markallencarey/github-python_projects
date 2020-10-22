@@ -1,0 +1,27 @@
+thing to try
+
+1.  when someone doesn't win, print the board and show where the battleship was with 'B'
+    - change the x to b 
+    - print the board as is
+2.  When their guess is within 2 columns and 2 rows, tell them that they are getting closer
+    - subtract guess from answer
+    - if answer is 2 or less, then print "You're getting closer..."
+
+Make multiple battleships: you’ll need to be careful because you need to make sure that you don’t place battleships on top of each other on the game board. Y
+ou’ll also want to make sure that you balance the size of the board with the number of ships so the game is still challenging and fun to play.
+
+Make battleships of different sizes: this is trickier than it sounds. 
+All the parts of the battleship need to be vertically or horizontally touching and 
+you’ll need to make sure you don’t accidentally place part of a ship off the side of the board.
+
+Make your game a two-player game.
+
+Use functions to allow your game to have more features like rematches, statistics and more!
+
+From Dad's email:
+1. When the game begins, ask the user how big they want to board to be and how many turns they want.
+2.  Add a function (a def, in python), called give_hint.  Call it after every guess.  Take the difference between their guess and the location of the battleship and give a hint.
+If the difference between the guess column and the battleship position column and the guess row and battleship position row are 2 or less, give a hint like "Almost there, very hot!!!!" or something like that.
+else if the difference (similar to above) is 3 or less, print a hint like "Getting closer!"
+else, give a hint that says "not even close" or something like that. 
+Later we'll make it so the number scales with size of the board.
